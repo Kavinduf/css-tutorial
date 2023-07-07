@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .back {
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .sub {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .strech {
+        background-color: rgb(57, 139, 57);
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        transition: padding 1s;
+      }
+
+      .strech:hover {
+        padding: 20px 40px 20px 40px;
+      }
+
+      .shadow {
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        transition: box-shadow 0.2s;
+        box-shadow: 5px 5px 10px black;
+      }
+
+      .shadow:active {
+        box-shadow: none;
+      }
+
+      .marg {
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        transition: padding-left 0.5s, padding-right 0.5s, margin-right 0.5s,
+          margin-left 0.5s;
+      }
+      .marg:hover {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="back">Back</button>
+    <a href="" class="sub">1</a>
+    <a href="" class="sub">2</a>
+    <a href="" class="sub">3</a>
+    <a href="" class="sub">4</a>
+    <a href="" class="sub">5</a>
+    <button class="back">Next</button>
+    <br />
+    <button class="strech">Strech</button>
+    <br />
+    <button class="shadow">Shadow</button>
+    <br />
+    <button class="marg">One</button>
+    <button class="marg">Two</button>
+    <button class="marg">Three</button>
+  </body>
+</html>
