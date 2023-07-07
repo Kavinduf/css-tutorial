@@ -71,13 +71,54 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 30px;
+        column-gap: 20px;
+        row-gap: 40px;
       "
     >
-      <div style="background-color: rgb(16, 166, 204); height: 200px">
-        div 1
-      </div>
+      <div style="background-color: rgb(16, 166, 204); height: 200px">1fr</div>
       <div style="background-color: lightcoral; height: 200px">1fr</div>
       <div style="background-color: rgb(16, 166, 204); height: 200px">2fr</div>
+      <div style="background-color: lightcoral; height: 200px">1fr</div>
+      <div style="background-color: rgb(16, 166, 204); height: 200px">1fr</div>
+      <div style="background-color: lightcoral; height: 200px">2fr</div>
+    </div>
+
+    <div
+      style="display: grid; grid-template-columns: 200px 75px; margin-top: 30px"
+    >
+      <div style="background-color: rgb(16, 166, 204)">200px</div>
+      <div style="background-color: lightcoral">75px</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-top: 30px;
+      "
+    >
+      <div style="background-color: rgb(16, 166, 204)">50px</div>
+      <div style="background-color: lightcoral">1fr</div>
+      <div style="background-color: rgb(16, 166, 204)">75px</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 30px;
+        column-gap: 20px;
+        row-gap: 10px;
+      "
+    >
+      <div style="background-color: lightcoral"">Col1</div>
+      <div style="background-color: lightcoral">Col2</div>
+      <div style="background-color:lightcoral"">Col3</div>
+      <div style="background-color:lightcoral"">Col4</div>
+      <div style="background-color: rgb(16, 166, 204)">Col1</div>
+      <div style="background-color: rgb(16, 166, 204)">Col2</div>
+      <div style="background-color: rgb(16, 166, 204)">Col3</div>
+      <div style="background-color: rgb(16, 166, 204)">Col4</div>
     </div>
   </body>
 </html>

@@ -5,6 +5,12 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
 .video-title {
   font-weight: 600;
   /* width: 230px; */
@@ -38,15 +44,9 @@ p {
 .search-bar {
   display: block;
 }
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
-}
-
 .thumbnail {
-  width: 300px;
+  width: 100%;
+  /* width: 300px; */
   /* object-fit: contain; */
   /* object-position: top; */
 }

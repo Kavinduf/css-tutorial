@@ -12,19 +12,19 @@
       rel="stylesheet"
     />
     <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 15px;
+      }
       .container {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        display: inline-block;
-        margin-top: 10px;
-        margin-left: 10px;
       }
       .image-container {
-        width: 200px;
         height: 200px;
         margin-bottom: 10px;
       }
       .image {
-        width: 200px;
         height: 200px;
         object-fit: fill;
       }
@@ -34,24 +34,29 @@
         margin-left: 8px;
         margin-bottom: 5px;
       }
-
+      .row {
+        display: grid;
+        grid-template-columns: 30px 150px;
+        column-gap: 15px;
+      }
       .profile-text {
-        display: inline-block;
-        width: 150px;
+        /* display: inline-block; */
+        /* width: 150px; */
         font-family: Poppins;
         color: gray;
         font-size: 14px;
         font-weight: 500;
-        margin-left: 8px;
+        margin-top: 5px;
+
+        vertical-align: middle;
       }
       .profile-image {
-        width: 30px;
+        width: 100%;
         border-radius: 50px;
         margin-left: 8px;
       }
       .profile-image-container {
-        display: inline-block;
-        vertical-align: middle;
+        /* vertical-align: middle; */
         margin-bottom: 5px;
       }
 
@@ -75,77 +80,79 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="image-container">
-        <img
-          class="image"
-          src="../Youtube/channel-pictures/channel-1.jpeg"
-          alt=""
-        />
-      </div>
-      <div>
-        <div class="title">Oliver</div>
+    <div class="grid">
+      <div class="container">
+        <div class="image-container">
+          <img
+            class="image"
+            src="../Youtube/channel-pictures/channel-1.jpeg"
+            alt=""
+          />
+        </div>
         <div>
-          <div class="profile-image-container">
-            <img
-              src="../Youtube/channel-pictures/channel-1.jpeg"
-              class="profile-image"
-            />
+          <div class="title">Oliver</div>
+          <div class="row">
+            <div class="profile-image-container">
+              <img
+                src="../Youtube/channel-pictures/channel-1.jpeg"
+                class="profile-image"
+              />
+            </div>
+            <div class="profile-text">2 mutual friends</div>
           </div>
-          <div class="profile-text">2 mutual friends</div>
-        </div>
-        <div>
-          <button class="button">Add Friend</button>
+          <div>
+            <button class="button">Add Friend</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="image-container">
-        <img
-          class="image"
-          src="../Youtube/channel-pictures/channel-1.jpeg"
-          alt=""
-        />
-      </div>
-      <div>
-        <div class="title">Oliver</div>
+      <div class="container">
+        <div class="image-container">
+          <img
+            class="image"
+            src="../Youtube/channel-pictures/channel-1.jpeg"
+            alt=""
+          />
+        </div>
         <div>
-          <div class="profile-image-container">
-            <img
-              src="../Youtube/channel-pictures/channel-1.jpeg"
-              class="profile-image"
-            />
+          <div class="title">Oliver</div>
+          <div class="row">
+            <div class="profile-image-container">
+              <img
+                src="../Youtube/channel-pictures/channel-1.jpeg"
+                class="profile-image"
+              />
+            </div>
+            <div class="profile-text">2 mutual friends</div>
           </div>
-          <div class="profile-text">2 mutual friends</div>
-        </div>
-        <div>
-          <button class="button">Add Friend</button>
+          <div>
+            <button class="button">Add Friend</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="image-container">
-        <img
-          class="image"
-          src="../Youtube/channel-pictures/channel-1.jpeg"
-          alt=""
-        />
-      </div>
-      <div>
-        <div class="title">Oliver</div>
-        <div>
-          <div class="profile-image-container">
-            <img
-              src="../Youtube/channel-pictures/channel-1.jpeg"
-              class="profile-image"
-            />
-          </div>
-          <div class="profile-text">2 mutual friends</div>
+      <div class="container">
+        <div class="image-container">
+          <img
+            class="image"
+            src="../Youtube/channel-pictures/channel-1.jpeg"
+            alt=""
+          />
         </div>
         <div>
-          <button class="button">Add Friend</button>
+          <div class="title">Oliver</div>
+          <div class="row">
+            <div class="profile-image-container">
+              <img
+                src="../Youtube/channel-pictures/channel-1.jpeg"
+                class="profile-image"
+              />
+            </div>
+            <div class="profile-text">2 mutual friends</div>
+          </div>
+          <div>
+            <button class="button">Add Friend</button>
+          </div>
         </div>
       </div>
     </div>
