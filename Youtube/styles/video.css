@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800&family=Roboto:wght@400;500;700&display=swap");
 
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 .video-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -41,9 +36,6 @@ p {
   /* width: 200px; */
 }
 
-.search-bar {
-  display: block;
-}
 .thumbnail {
   width: 100%;
   /* width: 300px; */
