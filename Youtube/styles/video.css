@@ -38,9 +38,23 @@
 
 .thumbnail {
   width: 100%;
+
   /* width: 300px; */
   /* object-fit: contain; */
   /* object-position: top; */
+}
+
+.thumbnail-time {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px;
 }
 .profile-picture {
   width: 40px;
@@ -50,4 +64,5 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
